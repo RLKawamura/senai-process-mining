@@ -196,9 +196,9 @@ O **SENAI (Serviço Nacional de Aprendizagem Industrial)** é uma das principais
 
 ### Contato
 
-- **Website**: [www.senai.br](https://www.senai.br)
-- **Email**: contato@senai.br
-- **Suporte**: issues@github.com
+- **Website**: [www.senaipr.org.br/tecnologiaeinovacao/](https://www.senaipr.org.br/tecnologiaeinovacao/)
+- **Email**: ist.produtividade@sistemafiep.org.br
+- **Suporte**: rodrigo_kawamura@hotmail.com
 
 ---
 
@@ -244,6 +244,6 @@ Este projeto utiliza as seguintes bibliotecas open-source:
 
 ---
 
-**Desenvolvido com ❤️ pelo SENAI**
+**Desenvolvido com ❤️ pelo IST Produtividade**
 
-**Versão**: 1.0.0 | **Data**: Dezembro 2024
+**Versão**: 1.0.0 | **Data**: Dezembro 2025
