@@ -1,0 +1,149 @@
+# ============================================================================
+# SENAI Process Mining - .gitignore
+# ============================================================================
+
+# ============================================================================
+# Python
+# ============================================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec.bak
+
+# Unit test / coverage
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# ============================================================================
+# Projeto Específico
+# ============================================================================
+
+# Backups de código
+*.backup
+*.backup_*
+*.bak
+*_BACKUP.py
+
+# Logs e dados temporários
+*.log
+logs/
+*.csv
+*.pkl
+*.db
+*.sqlite
+
+# Outputs gerados (não versionar)
+outputs/
+temp/
+tmp/
+
+# Dados sensíveis
+*.key
+*.pem
+secrets/
+credentials/
+
+# Build artifacts
+*.pyc
+*.pyo
+*.pyd
+.Python
+pip-log.txt
+pip-delete-this-directory.txt
+
+# PyInstaller build
+build/
+dist/
+*.spec.backup
+
+# ============================================================================
+# ActivityWatch
+# ============================================================================
+aw-server/
+aw-qt/
+aw-watchers/
+
+# ============================================================================
+# Windows
+# ============================================================================
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# ============================================================================
+# Vendor (manter estrutura, ignorar binários grandes se necessário)
+# ============================================================================
+# vendor/ é necessário para build, então NÃO ignoramos por padrão
+# Se o repositório ficar muito grande, considere usar Git LFS ou releases separadas
+
+# ============================================================================
+# Documentação temporária
+# ============================================================================
+docs/_build/
+site/
+
+# ============================================================================
+# IMPORTANTE: Arquivos que DEVEM ser versionados
+# ============================================================================
+# !assets/senai.ico
+# !vendor/graphviz/ (necessário para build)
+# !requirements.txt
+# !pm_suite_entry.spec
