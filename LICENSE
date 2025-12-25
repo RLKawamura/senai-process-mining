@@ -1,37 +1,79 @@
-MIT License
+LICENÇA PROPRIETÁRIA - TODOS OS DIREITOS RESERVADOS
 
-Copyright (c) 2024 SENAI - Serviço Nacional de Aprendizagem Industrial
+Copyright (c) 2025 SENAI - Instituto SENAI de Tecnologia em Produtividade (IST Produtividade)
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+TERMOS E CONDIÇÕES
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+1. PROPRIEDADE INTELECTUAL
+   Este software e toda a documentação associada são propriedade exclusiva do
+   SENAI - Instituto SENAI de Tecnologia em Produtividade (IST Produtividade).
+   Todos os direitos são reservados.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+2. RESTRIÇÕES DE USO
+   Este software é de uso EXCLUSIVO do IST Produtividade para consultorias
+   realizadas pelo instituto. É PROIBIDO:
+   
+   a) Uso comercial por terceiros
+   b) Redistribuição em qualquer forma
+   c) Modificação ou engenharia reversa
+   d) Criação de trabalhos derivados
+   e) Sublicenciamento
+   f) Uso por empresas concorrentes
+   g) Uso para fins não autorizados pelo IST Produtividade
+
+3. USO PERMITIDO
+   O uso é permitido EXCLUSIVAMENTE para:
+   
+   a) Consultorias conduzidas pelo IST Produtividade
+   b) Clientes do IST Produtividade durante período de consultoria ativa
+   c) Funcionários autorizados do SENAI/IST Produtividade
+
+4. CLIENTES
+   Clientes do IST Produtividade podem USAR o software durante o período de
+   consultoria, mas NÃO PODEM:
+   - Copiar ou redistribuir o software
+   - Usar após término do contrato de consultoria
+   - Fornecer a terceiros
+
+5. CONFIDENCIALIDADE
+   Este software contém informações proprietárias e confidenciais.
+   Qualquer uso não autorizado será considerado violação de propriedade
+   intelectual e estará sujeito a medidas legais.
+
+6. ISENÇÃO DE GARANTIAS
+   O SOFTWARE É FORNECIDO "COMO ESTÁ", SEM GARANTIAS DE QUALQUER TIPO,
+   EXPRESSAS OU IMPLÍCITAS, INCLUINDO, MAS NÃO SE LIMITANDO A GARANTIAS
+   DE COMERCIALIZAÇÃO, ADEQUAÇÃO A UM PROPÓSITO ESPECÍFICO E NÃO VIOLAÇÃO.
+
+7. LIMITAÇÃO DE RESPONSABILIDADE
+   EM NENHUMA CIRCUNSTÂNCIA O SENAI OU O IST PRODUTIVIDADE SERÃO RESPONSÁVEIS
+   POR QUAISQUER DANOS DIRETOS, INDIRETOS, INCIDENTAIS, ESPECIAIS, EXEMPLARES
+   OU CONSEQUENCIAIS.
+
+8. BIBLIOTECAS DE TERCEIROS
+   Este software utiliza bibliotecas de código aberto de terceiros, cada uma
+   com suas próprias licenças:
+   
+   - PM4Py: GNU General Public License v3.0
+   - ActivityWatch: Mozilla Public License 2.0
+   - Graphviz: Common Public License 1.0
+   - ReportLab: BSD License
+   - Pandas: BSD 3-Clause License
+   - NumPy: BSD License
+   - Matplotlib: PSF-based License
+   
+   O uso dessas bibliotecas está em conformidade com suas respectivas licenças.
+
+9. CONTATO
+   Para autorização de uso ou dúvidas sobre licenciamento:
+   
+   SENAI - Instituto SENAI de Tecnologia em Produtividade
+   Email: ist.produtividade@sistemafiep.org.br
+   Website: https://www.senaipr.org.br/tecnologiaeinovacao/
 
 ---
 
-Third-Party Licenses:
+ATENÇÃO: Este software NÃO é de código aberto. Qualquer uso não autorizado
+constitui violação de direitos autorais e propriedade intelectual.
 
-This software uses the following open-source libraries:
-
-- PM4Py: GNU General Public License v3.0
-- ActivityWatch: Mozilla Public License 2.0
-- Graphviz: Common Public License 1.0
-- ReportLab: BSD License
-- Pandas: BSD 3-Clause License
-- NumPy: BSD License
-- Matplotlib: PSF-based License
-
-Please see each library's documentation for their respective license terms.
+Última atualização: Dezembro 2025
