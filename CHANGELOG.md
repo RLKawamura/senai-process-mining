@@ -7,11 +7,11 @@ e este projeto adere ao [Semantic Versioning](https://semver.org/lang/pt-BR/).
 
 ---
 
-## [1.0.0] - 2024-12-25
+## [1.0.0] - 2025-12-25
 
 ### 🎉 Lançamento Inicial
 
-Primeira versão estável do SENAI Process Mining Suite.
+Primeira versão estável do SENAI PR Process Mining Suite.
 
 ### ✨ Adicionado
 
@@ -59,7 +59,7 @@ Primeira versão estável do SENAI Process Mining Suite.
 
 #### Launcher
 - Interface única para acessar Workbench e Analysis
-- Ícone SENAI em todas as janelas
+- Ícone SENAI PR em todas as janelas
 - Design profissional e intuitivo
 
 #### Infraestrutura
@@ -92,19 +92,19 @@ Primeira versão estável do SENAI Process Mining Suite.
 
 ### 🔮 Planejado para Próximas Versões
 
-#### v1.1.0 (Q1 2025)
+#### v1.1.0 (Q1 2026)
 - [ ] Dashboard web interativo
 - [ ] Análise de múltiplos usuários
 - [ ] Exportação para Excel com gráficos
 - [ ] Filtros avançados de dados
 
-#### v1.2.0 (Q2 2025)
+#### v1.2.0 (Q2 2026)
 - [ ] Integração com ferramentas RPA
 - [ ] Machine Learning para detecção de anomalias
 - [ ] Sugestões automáticas de otimização
 - [ ] API REST para integração
 
-#### v2.0.0 (Q3 2025)
+#### v2.0.0 (Q3 2026)
 - [ ] Suporte multi-idioma (EN, ES, PT)
 - [ ] Modo cloud/servidor
 - [ ] Análise colaborativa
@@ -112,18 +112,18 @@ Primeira versão estável do SENAI Process Mining Suite.
 
 ---
 
-## [0.9.0] - 2024-12-20 (Beta)
+## [0.9.0] - 2025-12-20 (Beta)
 
 ### 🧪 Versão Beta Interna
 
-- Testes iniciais com usuários SENAI
+- Testes iniciais com usuários IST Produtividade
 - Validação de fluxos de trabalho
 - Ajustes de performance
 - Correção de bugs críticos
 
 ---
 
-## [0.5.0] - 2024-12-15 (Alpha)
+## [0.5.0] - 2025-12-15 (Alpha)
 
 ### 🚧 Versão Alpha Interna
 
@@ -149,3 +149,9 @@ Primeira versão estável do SENAI Process Mining Suite.
 - **MAJOR**: Mudanças incompatíveis com versões anteriores
 - **MINOR**: Novas funcionalidades compatíveis com versões anteriores
 - **PATCH**: Correções de bugs compatíveis com versões anteriores
+
+---
+
+**Desenvolvido por:** SENAI PR - IST Produtividade  
+**Contato:** ist.produtividade@sistemafiep.org.br  
+**Bugs:** rodrigo_kawamura@hotmail.com
