@@ -2,7 +2,9 @@
 
 **Mapeamento Digital de Rotinas de Trabalho**
 
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+> ⚠️ **AVISO LEGAL**: Este software é propriedade do SENAI - IST Produtividade e é de uso EXCLUSIVO para consultorias do instituto. Uso não autorizado é proibido.
+
+[![License](https://img.shields.io/badge/license-Proprietary-red.svg)](LICENSE)
 [![Python](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![Platform](https://img.shields.io/badge/platform-Windows-lightgrey.svg)]()
 
