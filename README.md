@@ -46,7 +46,7 @@ O **SENAI Process Mining Suite** é uma solução completa para captura, anális
 
 ### Opção 1: Executável Standalone (Recomendado para Usuários)
 
-1. Baixe a última versão em [Releases](releases/)
+1. Baixe a última versão em [Releases](https://github.com/RLKawamura/senai-process-mining/releases)
 2. Extraia o arquivo ZIP
 3. Execute `SENAI_Mineracao_Processos.exe`
 4. Não requer instalação!
