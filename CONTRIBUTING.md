@@ -1,6 +1,6 @@
 # 🤝 Guia de Contribuição
 
-Obrigado por considerar contribuir com o **SENAI Process Mining Suite**! Este documento fornece diretrizes para contribuições.
+Obrigado por considerar contribuir com o **SENAI PR - Process Mining Suite**! Este documento fornece diretrizes para contribuições.
 
 ---
 
@@ -19,7 +19,7 @@ Obrigado por considerar contribuir com o **SENAI Process Mining Suite**! Este do
 
 ### 1️⃣ Reportar Bugs
 
-Use o [template de Issue para Bugs](../../issues/new?template=bug_report.md):
+**Email para bugs:** rodrigo_kawamura@hotmail.com
 
 **Informações necessárias:**
 - Versão do software
@@ -48,7 +48,7 @@ Use o [template de Issue para Bugs](../../issues/new?template=bug_report.md):
 
 ### 2️⃣ Sugerir Funcionalidades
 
-Use o [template de Issue para Features](../../issues/new?template=feature_request.md):
+**Email para sugestões:** rodrigo_kawamura@hotmail.com
 
 **Informações necessárias:**
 - Problema que resolve
@@ -65,6 +65,7 @@ Use o [template de Issue para Features](../../issues/new?template=feature_reques
 - Python 3.8+
 - Git
 - Conhecimento de PM4Py (recomendado)
+- Acesso ao repositório (colaboradores SENAI PR/IST)
 
 #### Processo
 
@@ -197,6 +198,7 @@ Antes de submeter PR, teste:
 1. **Workbench**:
    - [ ] Iniciar/parar gravação
    - [ ] Exportação de CSV
+   - [ ] Conexão com ActivityWatch
 
 2. **Analysis**:
    - [ ] Carregamento de CSV
@@ -238,7 +240,7 @@ SENAI_Process_Mining/
 ├── docs/                     # Documentação
 ├── tests/                    # Testes (futuro)
 ├── pm_suite_entry.py         # Launcher principal
-├── pm_suite_entry.spec       # Config PyInstaller
+├── pm_suite.spec             # Config PyInstaller
 ├── requirements.txt          # Dependências Python
 └── README.md                 # Documentação principal
 ```
@@ -252,7 +254,7 @@ SENAI_Process_Mining/
 Melhorias na interface são bem-vindas:
 
 - Mockups no Figma
-- Paleta de cores SENAI
+- Paleta de cores SENAI PR
 - Layout responsivo
 - Acessibilidade
 
@@ -302,7 +304,7 @@ Melhorias na interface são bem-vindas:
 
 ### Timeline de Review
 
-- **Issues**: Resposta em 48h
+- **Bugs críticos**: Resposta em 24h
 - **PRs simples**: Review em 3-5 dias
 - **PRs complexos**: Review em 1-2 semanas
 
@@ -367,10 +369,10 @@ Prêmios especiais para:
 
 ### Canais
 
-- **Issues**: Bugs e features
-- **Discussions**: Discussões gerais
-- **Pull Requests**: Code reviews
-- **Email**: contato@senai.br (oficial)
+- **Bugs:** rodrigo_kawamura@hotmail.com
+- **Sugestões:** rodrigo_kawamura@hotmail.com
+- **Institucional:** ist.produtividade@sistemafiep.org.br
+- **Pull Requests:** Code reviews via GitHub
 
 ### Idioma
 
@@ -387,7 +389,7 @@ Prêmios especiais para:
 A: Não, a menos que tenha permissão do assignee.
 
 **Q: Como sei em que trabalhar?**  
-A: Procure Issues com label `good first issue` ou `help wanted`.
+A: Entre em contato via rodrigo_kawamura@hotmail.com para discutir contribuições.
 
 **Q: Meu PR foi rejeitado, e agora?**  
 A: Leia o feedback, faça as correções e resubmeta.
@@ -400,16 +402,37 @@ A: Depende da complexidade. Simples: ~1 semana. Complexo: ~2 semanas.
 
 ---
 
+## 🎯 Prioridades Atuais (2025)
+
+### Alta Prioridade
+- [ ] Testes unitários com pytest
+- [ ] Documentação de API interna
+- [ ] Otimização de performance (CSVs grandes)
+- [ ] Exportação para Excel
+
+### Média Prioridade
+- [ ] Dashboard web interativo
+- [ ] Análise multi-usuário
+- [ ] Integração com RPA
+
+### Baixa Prioridade
+- [ ] Suporte multi-idioma
+- [ ] Modo cloud
+- [ ] Mobile app
+
+---
+
 ## ✅ Checklist do Contribuidor
 
 Antes de submeter PR:
 
 - [ ] Li o CONTRIBUTING.md
-- [ ] Criei Issue (se feature nova)
+- [ ] Testei localmente
+- [ ] ActivityWatch funcionando nos testes
 - [ ] Fork e clone do repositório
 - [ ] Branch criada com nome descritivo
 - [ ] Código segue padrões PEP 8
-- [ ] Testei manualmente
+- [ ] Testei manualmente (Workbench + Analysis)
 - [ ] Documentação atualizada
 - [ ] Commits descritivos
 - [ ] Push para meu fork
@@ -425,5 +448,16 @@ Sua contribuição faz diferença! Seja código, documentação, design ou feedb
 
 ---
 
-**Última atualização:** Dezembro 2024  
-**Versão do Guia:** 1.0
+## 📧 Contatos
+
+**SENAI PR - Instituto SENAI de Tecnologia em Produtividade**
+
+- 📧 **Email Institucional:** ist.produtividade@sistemafiep.org.br
+- 🐛 **Bugs/Sugestões:** rodrigo_kawamura@hotmail.com
+- 🌐 **Website:** https://www.senaipr.org.br/tecnologiaeinovacao/
+
+---
+
+**Última atualização:** Dezembro 2025  
+**Versão do Guia:** 1.0  
+**Desenvolvido por:** SENAI PR - IST Produtividade
