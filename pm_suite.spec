@@ -1,4 +1,4 @@
-﻿# -*- mode: python ; coding: utf-8 -*-
+# -*- mode: python ; coding: utf-8 -*-
 import os
 import sys
 import glob
@@ -19,6 +19,9 @@ datas_matplotlib = collect_data_files('matplotlib')
 datas_pandas = collect_data_files('pandas')
 datas_setuptools = collect_data_files('setuptools')
 datas_jaraco = collect_data_files('jaraco', include_py_files=True)
+
+# ADICIONADO: Coletar dados do reportlab
+datas_reportlab = collect_data_files('reportlab', include_py_files=True)
 
 VENDOR_GRAPHVIZ = os.path.join(SPECPATH, 'vendor', 'graphviz')
 vendor_datas = []
@@ -57,6 +60,7 @@ vcruntime_dll = []
 for vcrt in glob.glob(os.path.join(python_base, 'vcruntime*.dll')):
     vcruntime_dll.append((vcrt, '.'))
 
+# MODIFICADO: Adicionado reportlab e seus submódulos
 hiddenimports = [
     'tkinter', 'tkinter.ttk', 'tkinter.filedialog', 'tkinter.messagebox',
     'tkinter.scrolledtext', 'tkinter.font', 'runpy', 'importlib',
@@ -65,17 +69,37 @@ hiddenimports = [
     'pm4py', 'numpy', 'pandas', 'scipy', 'matplotlib',
     'requests', 'urllib3', 'certifi', 'aw_client', 'aw_core',
     'graphviz', 'lxml', 'openpyxl', 'xlrd',
+    # ADICIONADO: ReportLab para geração de PDFs
+    'reportlab',
+    'reportlab.pdfgen',
+    'reportlab.pdfgen.canvas',
+    'reportlab.lib',
+    'reportlab.lib.pagesizes',
+    'reportlab.lib.units',
+    'reportlab.lib.styles',
+    'reportlab.lib.colors',
+    'reportlab.lib.enums',
+    'reportlab.platypus',
+    'reportlab.platypus.paragraph',
+    'reportlab.platypus.doctemplate',
+    'reportlab.platypus.frames',
+    'reportlab.platypus.tables',
+    'reportlab.platypus.flowables',
+    'reportlab.rl_config',
 ]
 
 hiddenimports += collect_submodules('pm4py')
 hiddenimports += collect_submodules('numpy')
 hiddenimports += collect_submodules('pandas')
+# ADICIONADO: Coletar todos os submódulos do reportlab
+hiddenimports += collect_submodules('reportlab')
 
 a = Analysis(
     ['pm_suite_entry.py'],
     pathex=[SPECPATH],
     binaries=python_dll + vcruntime_dll + binaries_numpy + binaries_pandas + binaries_scipy,
-    datas=datas_pm4py + datas_matplotlib + datas_pandas + datas_setuptools + datas_jaraco + vendor_datas + [
+    # MODIFICADO: Adicionado datas_reportlab
+    datas=datas_pm4py + datas_matplotlib + datas_pandas + datas_setuptools + datas_jaraco + datas_reportlab + vendor_datas + [
         (os.path.join(ASSETS_DIR, 'senai.ico'), 'assets')  # SEM o _internal/
     ],
     hiddenimports=hiddenimports,
